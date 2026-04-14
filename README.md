@@ -67,6 +67,33 @@ This step helped guide the dashboard design and key metrics selection.
 - Helps in identifying high-value customers
 - Insight: A small group of customers contributes a large portion of sales
   
+3. Monthly Sales Trend (Line Chart) (if included)
 
+- Shows how sales change over time
+- Helps detect trends, seasonality, or growth patterns
+- Insight: Useful for forecasting and planning
+
+4. Profit by Category (if included)
+
+- Compares profitability across product categories
+- Helps identify which category drives profit
+
+### Findings
+- The West region is the top-performing region in terms of sales
+- A few top customers contribute significantly to overall revenue
+- The business maintains a healthy profit margin of 19%
+- Sales vary across regions, indicating uneven performance
+- Technology category perform better than others in profitability
+
+### Recommendations
+- Focus marketing and expansion strategies on high-performing regions (West & East)
+- Develop loyalty programs for top customers to retain them
+- Investigate underperforming regions (e.g., South) for improvement opportunities
+- Optimize product offerings by focusing on high-profit categories
+- Use monthly trends to plan promotions during peak periods
+
+### Limitations
+- Profit was estimated using a fixed 19% margin, which may not reflect actual profitability
+- Dataset may not include all real-world factors (e.g., discounts, returns, operational costs)
 
 
