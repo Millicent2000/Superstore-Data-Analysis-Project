@@ -7,13 +7,13 @@ The dashboard highlights key performance indicators (KPIs) such as total sales, 
 
 ### Data Source
 
-The dataset used is the Superstore dataset, a popular retail dataset containing transactional data.
+The dataset used is the Superstore dataset.
 
 It includes:
 
 - Order details (Order Date, Customer Name)
 - Product categories (Furniture, Office Supplies, Technology)
-- Sales and profit information
+- Sales information
 - Regional data (Central, East, South, West)
 
 ### Tools Used
@@ -32,19 +32,17 @@ To ensure data accuracy and consistency, the following steps were performed:
 - Standardized data types (numbers, text, dates)
 - Estimated Profit using an assumed average margin of 19%
 - Calculated Profit Margin using:
-- Profit ÷ Sales
+  Profit ÷ Sales
 - Created a Business Status column using an IF function to classify performance
 
 ### Exploratory Data Analysis (EDA)
 
-Initial exploration was carried out to understand patterns and trends:
+Exploration was carried out to understand patterns and trends:
 
 - Identified top-performing regions and categories
 - Analyzed customer distribution and contribution to sales
 - Examined monthly sales trends to detect seasonality
 - Compared sales across different product categories
-
-This step helped guide the dashboard design and key metrics selection.
 
 ### Data Analysis & Visualizations
 #### Key KPIs
@@ -67,13 +65,13 @@ This step helped guide the dashboard design and key metrics selection.
 - Helps in identifying high-value customers
 - Insight: A small group of customers contributes a large portion of sales
   
-3. Monthly Sales Trend (Line Chart) (if included)
+3. Monthly Sales Trend (Line Chart) 
 
 - Shows how sales change over time
 - Helps detect trends, seasonality, or growth patterns
 - Insight: Useful for forecasting and planning
 
-4. Profit by Category (if included)
+4. Profit by Category 
 
 - Compares profitability across product categories
 - Helps identify which category drives profit
