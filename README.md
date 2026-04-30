@@ -1,97 +1,104 @@
-# Sales Dashboard Project (Superstore Dataset)
+# 🛒 Retail Sales & Profitability Analysis (Superstore)  
+**Tools:** Microsoft Excel  
+**Focus:** Revenue Analysis | Profitability Optimization | Business Performance  
 
-## Project Overview
+---
 
-This project focuses on analyzing retail sales performance using the Superstore dataset. The goal was to build an interactive Excel dashboard that provides insights into business performance, customer behavior, and regional sales trends.
-The dashboard highlights key performance indicators (KPIs) such as total sales, total profit, profit margin, and number of customers, enabling quick and data-driven decision-making.
+## 📌 Project Overview  
+This project analyzes retail sales and profitability data to identify performance trends, uncover underperforming segments, and provide actionable recommendations to improve overall business profitability.
 
-### Data Source
+---
 
-The dataset used is the Superstore dataset.
+## 🎯 Business Problem  
+Retail businesses often face challenges in:
+- Identifying which products and regions drive profitability  
+- Understanding why certain segments underperform  
+- Making data-driven decisions to optimize revenue and reduce losses  
 
-It includes:
+This project addresses these challenges by transforming raw transactional data into actionable business insights.
 
-- Order details (Order Date, Customer Name)
-- Product categories (Furniture, Office Supplies, Technology)
-- Sales information
-- Regional data (Central, East, South, West)
+---
 
-### Tools Used
-- Microsoft Excel
-  - Pivot Tables
-  - Pivot Charts
-  - Slicers (for interactivity)
-    
-### Data Cleaning and Preparation
+## 📊 Dataset  
+The dataset includes transactional retail data such as:
+- Sales revenue  
+- Profit  
+- Product categories and sub-categories  
+- Regional performance  
+- Customer segments  
 
-To ensure data accuracy and consistency, the following steps were performed:
+---
 
-- Converted the Order Date using Text-to-Columns for proper date formatting
-- Created new columns for Month and Year to enable time-based analysis
-- Checked for inconsistencies and ensured data integrity
-- Standardized data types (numbers, text, dates)
-- Estimated Profit using an assumed average margin of 19%
-- Calculated Profit Margin using:
-  Profit ÷ Sales
-- Created a Business Status column using an IF function to classify performance
+## 🛠 Tools & Techniques  
+- **Microsoft Excel:**  
+  - Data cleaning and transformation  
+  - Pivot tables for aggregation and analysis  
+  - Data visualization (charts & summaries)  
 
-### Exploratory Data Analysis (EDA)
+- **Analytical Techniques:**  
+  - Profitability analysis  
+  - Trend analysis  
+  - Segment and category performance evaluation  
 
-Exploration was carried out to understand patterns and trends:
+---
 
-- Identified top-performing regions and categories
-- Analyzed customer distribution and contribution to sales
-- Examined monthly sales trends to detect seasonality
-- Compared sales across different product categories
+## 🔍 Key Insights  
 
-### Data Analysis & Visualizations
-#### Key KPIs
-- Total Sales: $2,261,403.38
-- Total Profit: $429,666.64
-- Profit Margin: 19%
-- Number of Customers: 793
+-  **Furniture** generated high sales of profit margins of **32%**
+- The **Technology category** consistently delivered the highest profitability with **36%**
+- Regional performance varied significantly, highlighting geographic opportunities  
+- Discounting patterns negatively impacted overall profit margins  
 
-### Charts & Why They Were Used
+---
 
-1. Sales by Region (Bar Chart)
+## 📈 Analysis Highlights  
+The analysis enabled:
+- Identification of high-revenue vs high-profit segments  
+- Detection of loss making categories  
+- Comparison of regional performance  
+- Insight into pricing and discount impact on profitability  
 
-- Used to compare sales performance across regions
-- Easy to identify the highest and lowest performing regions
-- Insight: The West region generates the highest sales
+---
 
-2. Top 10 Customers (Horizontal Bar Chart)
+## 📊 Dashboard / Visual Analysis  
 
-- Highlights key customers contributing most to revenue
-- Helps in identifying high-value customers
-- Insight: A small group of customers contributes a large portion of sales
-  
-3. Monthly Sales Trend (Line Chart) 
+[Dashboard Overview] <img width="594" height="411" alt="Sales Dashboad" src="https://github.com/user-attachments/assets/51afc4e6-63df-4701-9847-a65d2362d4f2" />
 
-- Shows how sales change over time
-- Helps detect trends, seasonality, or growth patterns
-- Insight: Useful for forecasting and planning
 
-4. Profit by Category 
 
-- Compares profitability across product categories
-- Helps identify which category drives profit
+ 
 
-### Findings
-- The West region is the top-performing region in terms of sales
-- A few top customers contribute significantly to overall revenue
-- The business maintains a healthy profit margin of 19%
-- Sales vary across regions, indicating uneven performance
-- Technology category perform better than others in profitability
+---
 
-### Recommendations
-- Focus marketing and expansion strategies on high-performing regions (West & East)
-- Develop loyalty programs for top customers to retain them
-- Investigate underperforming regions (e.g., South) for improvement opportunities
-- Optimize product offerings by focusing on high-profit categories
-- Use monthly trends to plan promotions during peak periods
+## 💡 Business Recommendations  
 
-### Limitations
-- Profit was estimated using a fixed 19% margin, which may not reflect actual profitability
-- Dataset may not include all real-world factors (e.g., discounts, returns, operational costs)
+- Review pricing and cost structures in low profit categories (e.g., Furniture)  
+- Increase focus on high performing categories like Technology  
+- Optimize discount strategies to reduce profit loss  
+- Invest in high performing regions while improving weaker markets  
 
+---
+
+## 🚀 Business Impact  
+
+This project demonstrates how data-driven analysis can:
+- Improve profitability through targeted decision making  
+- Identify inefficiencies in pricing and product strategy  
+- Support strategic planning across regions and categories  
+
+---
+
+## 📎 Project Files  
+- Raw dataset  
+- Cleaned dataset  
+- Excel analysis file (pivot tables & charts)  
+
+---
+
+## 👤 Author  
+**Millicent Odoh**  
+Data Analyst | Excel | Power BI | SQL  
+Focused on using data to drive business performance and strategic decision-making  
+
+---
 
